@@ -3,8 +3,12 @@
 The ncnn demo of **SSAT: A Symmetric Semantic-Aware Transformer Network for Makeup Transfer and Removal**  
 
 ## Result  
+### android  
 ![](android_result.jpg)  
+### linux  
 ![](linux_result.jpg)  
+### windows  
+### all  
 ![](result.jpg)  
 
 ## Reference  
