@@ -8,8 +8,6 @@ The ncnn demo of **SSAT: A Symmetric Semantic-Aware Transformer Network for Make
 ### linux  
 ![](linux_result.jpg)  
 ### windows  
-### all  
-![](result.jpg)  
 
 ## Reference  
 1.https://github.com/Snowfallingplum/SSAT  
