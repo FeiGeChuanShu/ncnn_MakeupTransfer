@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/buttonTargetImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选目标图" />
+    <Button
+        android:id="@+id/buttonReferenceImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选参考图" />
+    <Button
+        android:id="@+id/buttonDetect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPU" />
+    <Button
+        android:id="@+id/buttonDetectGPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPU" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            android:background="#009688" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            android:background="#009688" />
+        </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#673AB7" />
+</LinearLayout>
