@@ -8,7 +8,7 @@ The ncnn demo of **SSAT: A Symmetric Semantic-Aware Transformer Network for Make
 ### 2、linux  
 ![](linux_result.jpg)  
 ### 3、windows  
-
+![](windows_result.jpg)  
 ## Reference  
 1.https://github.com/Snowfallingplum/SSAT  
 2.https://github.com/zllrunning/face-parsing.PyTorch  
